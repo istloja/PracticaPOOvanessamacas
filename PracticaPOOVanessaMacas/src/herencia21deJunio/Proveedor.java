@@ -41,10 +41,13 @@ public class Proveedor extends Persona {
     public void Entregas(){
         System.out.println("La entrega se realizo");
     }
+    public void cargo(){
+        System.out.println("Repartidor");
+    }
     public static void main(String[] args) {
         Proveedor objeto = new Proveedor();
         objeto.Saludar();
         objeto.Entregas();
-  
+        objeto.cargo();
     }
 }
