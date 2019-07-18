@@ -16,23 +16,9 @@ public class Abuelo extends Persona {
     Padre padre;
     Hijo hijo;
     HijoS hijoS;
-    HijoT hijoT;
     Abuela abuela;
     
     
-
- public Abuelo() {
-        setNombre("Miguel");
-        setApellido("Macas");
-        setEdad(65);
-        setColorCabello("Castaño");
-        setColorOjos("Marron");
-        setFNacimiento(12 / 20 / 40);
-        setEstatura((int) 1.53);
-        setGenero("Femenino");
-
-    }
-
     public Madre getMadre() {
         return madre;
     }
@@ -65,14 +51,6 @@ public class Abuelo extends Persona {
         this.hijoS = hijoS;
     }
 
-    public HijoT getHijoT() {
-        return hijoT;
-    }
-
-    public void setHijoT(HijoT hijoT) {
-        this.hijoT = hijoT;
-    }
-
     public Abuela getAbuela() {
         return abuela;
     }
@@ -84,4 +62,12 @@ public class Abuelo extends Persona {
     
  
   
+
+
+ public Abuelo() {
+        setNombre("Benjamin");
+        setApellido("Godoy");
+        setEdad(95);
+        setGenero("Masculino");
+        }
 }

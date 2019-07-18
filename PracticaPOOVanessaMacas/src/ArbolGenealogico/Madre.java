@@ -12,7 +12,6 @@ package ArbolGenealogico;
 public class Madre extends Persona {
      Hijo hijo;
      HijoS hijoS;
-     HijoT hijoT;
      Abuela abuela;
      Abuelo abuelo;
      Padre padre;
@@ -32,14 +31,6 @@ public class Madre extends Persona {
 
     public void setHijoS(HijoS hijoS) {
         this.hijoS = hijoS;
-    }
-
-    public HijoT getHijoT() {
-        return hijoT;
-    }
-
-    public void setHijoT(HijoT hijoT) {
-        this.hijoT = hijoT;
     }
 
     public Abuela getAbuela() {
@@ -70,13 +61,9 @@ public class Madre extends Persona {
 
         
  public Madre() {
-        setNombre("Alexandra");
-        setApellido("Arpi");
-        setEdad(41);
-        setColorCabello("Castaño");
-        setColorOjos("Marron");
-        setFNacimiento(24 / 01 / 76);
-        setEstatura((int) 1.55);
+        setNombre("Eva");
+        setApellido("Dias");
+        setEdad(56);
         setGenero("Femenino");
    
     }

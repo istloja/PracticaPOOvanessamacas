@@ -14,22 +14,8 @@ public class Hijo extends Persona {
     Madre madre;
     Padre padre;
     HijoS hijoS;
-    HijoT hijoT;
     Abuela abuela;
     Abuelo abuelo;
-    
-
- public Hijo() {
-        setNombre("Vanessa");
-        setApellido("Macas");
-        setEdad(23);
-        setColorCabello("Castaño");
-        setColorOjos("Marron");
-        setFNacimiento(12 / 20 / 95);
-        setEstatura((int) 1.53);
-        setGenero("Femenino");
-
- }
 
     public Madre getMadre() {
         return madre;
@@ -55,14 +41,6 @@ public class Hijo extends Persona {
         this.hijoS = hijoS;
     }
 
-    public HijoT getHijoT() {
-        return hijoT;
-    }
-
-    public void setHijoT(HijoT hijoT) {
-        this.hijoT = hijoT;
-    }
-
     public Abuela getAbuela() {
         return abuela;
     }
@@ -78,5 +56,13 @@ public class Hijo extends Persona {
     public void setAbuelo(Abuelo abuelo) {
         this.abuelo = abuelo;
     }
+    
+
+ public Hijo() {
+        setNombre("Blanca");
+        setApellido("Godoy");
+        setEdad(35);
+        setGenero("Femenino");
+        
+ }
 }
-   
