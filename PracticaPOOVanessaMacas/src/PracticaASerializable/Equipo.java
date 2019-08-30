@@ -19,18 +19,18 @@ public class Equipo implements Serializable {
     public Equipo() {
     }
 
-    public Equipo(String nombre, int numerotitulos, String ciudad) {
-        this.nombreEquipo = nombre;
+    public Equipo(String nombreEquipo, int numerotitulos, String ciudad) {
+        this.nombreEquipo = nombreEquipo;
         this.numerotitulos = numerotitulos;
         this.ciudad = ciudad;
     }
 
-    public String getNombre() {
+    public String getNombreEquipo() {
         return nombreEquipo;
     }
 
-    public void setNombre(String nombre) {
-        this.nombreEquipo = nombre;
+    public void setNombreEquipo(String nombreEquipo) {
+        this.nombreEquipo = nombreEquipo;
     }
 
     public int getNumerotitulos() {
@@ -48,4 +48,6 @@ public class Equipo implements Serializable {
     public void setCiudad(String ciudad) {
         this.ciudad = ciudad;
     }
+
 }
+  

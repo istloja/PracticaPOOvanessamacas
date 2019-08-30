@@ -142,7 +142,7 @@ public class Jugador implements Serializable {
    
     public static void main(String[] args) {
         Jugador jugador = new Jugador("Cristiano", "Ronaldo", 33, 520, 2005, new Equipo("Juventus", 20, "Turin"),12,32,12.3,45,3);
-        Jugador jugador1 = new Jugador("Lionel", "Messi", 31, 600, 2007, new Equipo("Barcelona", 30, "Barcelona"),4,21,10.2,34,6);
+        Jugador jugador1 = new Jugador("Lionel", "Messi", 31, 600, 2007, new Equipo("Barcelona", 30, "Barcelona"),14,21,10.2,34,6);
         Jugador jugador2 = new Jugador("Neymar", "Jr", 28, 200, 2011, new Equipo("PSG", 10, "Paris"),4,6,14.8,23,2);
         Jugador jugador3 = new Jugador("Eden", "Hazard", 27, 1590, 2010, new Equipo("Real Madrid", 40, "Madrid"),5,12,14.5,22,4);
         
